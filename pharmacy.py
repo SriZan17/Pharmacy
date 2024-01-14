@@ -9,7 +9,7 @@ import regex as re
 
 
 suburbs = []
-with open("error.txt", "r") as f:
+with open("pharmacy.txt", "r") as f:
     for line in f:
         suburbs.append(line.strip())
 
